@@ -17,6 +17,6 @@ Admin Credential :
 - Username : mraza2406
 - Password : 1234
 
-![Admin_image1](admin_image/Admin_img1)
+![Admin_image1](image/Admin_img1.png)
 
-![Admin_image2](admin_image/Admin_img2)
+![Admin_image2](image/Admin_img2.png)
