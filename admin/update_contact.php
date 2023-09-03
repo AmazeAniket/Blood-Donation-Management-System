@@ -52,8 +52,8 @@ $active="contact";
       <?php if(isset($_POST['update']))
       {
         $address=$_POST['address'];
-        $number=$_POST['email'];
-        $email=$_POST['contactno'];
+        $email=$_POST['email'];
+        $number=$_POST['contactno'];
         $conn=mysqli_connect("localhost","id20016060_root","18@Alirazamalik","id20016060_blood_donation") or die("Connection error");
         $sql= "update contact_info set contact_address='{$address}', contact_mail='{$email}', contact_phone='{$number}' where contact_id='1'";
         $result=mysqli_query($conn,$sql) or die("query unsuccessful.");
